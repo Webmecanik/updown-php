@@ -60,7 +60,6 @@ class Updown
         
         foreach ($checks as $check) {
             if (strpos($check['url'], $url, 0) !== false) {
-                var_dump($check);
                 return $check['token'];
             }
         }
